@@ -1,0 +1,24 @@
+{
+  "name": "svelte-hammerjs",
+  "version": "0.0.0",
+  "description": "hammerjs for svelte",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beomy/svelte-hammerjs.git"
+  },
+  "keywords": [
+    "svelte",
+    "hammerjs"
+  ],
+  "author": {
+    "name": "Hyo Bum Lee",
+    "email": "beomyhlee@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beomy/svelte-hammerjs/issues"
+  },
+  "homepage": "https://github.com/beomy/svelte-hammerjs#readme"
+}
