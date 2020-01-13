@@ -1,16 +1,16 @@
 import Hammer from 'hammerjs';
 
 const events: Array<string> = [
-  'swipe',
-  'swipeleft',
-  'swiperight',
-  'swipeup',
-  'swipedown'
+  'rotate',
+  'rotatestart',
+  'rotatemove',
+  'rotateend',
+  'rotatecancel'
 ];
 
 export default function (node: HTMLElement, options: RecognizerOptions): void {
   const hammer = new Hammer(node);
-  hammer.get('swipe').set(options);
+  hammer.get('rotate').set(options);
   for (const event of events) {
     hammer.on(event, (ev: any) => node.dispatchEvent(new CustomEvent(event, ev)));
   }

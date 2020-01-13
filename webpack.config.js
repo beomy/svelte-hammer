@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: './src/index.ts',
   module: {
     rules: [
@@ -17,7 +18,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'SvelteHammerJs',
+    library: 'SvelteHammer',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
