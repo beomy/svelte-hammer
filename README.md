@@ -18,6 +18,8 @@ yarn add svelte-hammer
 
 # Usage
 
+See [Hammer.js documentation](http://hammerjs.github.io/getting-started/) for all available events.
+
 ## Pan
 
 ```html
