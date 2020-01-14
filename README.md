@@ -35,15 +35,15 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:pan`: Detect all pan event
-`on:panstart`: Detect start pan event
-`on:panmove`: Detect move pan event
-`on:panend`: Detect end pan event
-`on:pancancel`: Detect cancel pan event
-`on:panleft`: Detect left pan event
-`on:panright`: Detect right pan event
-`on:panup`: Detect up pan event
-`on:pandown`: Detect down pan event
+- `on:pan`: Detect all pan event
+- `on:panstart`: Detect start pan event
+- `on:panmove`: Detect move pan event
+- `on:panend`: Detect end pan event
+- `on:pancancel`: Detect cancel pan event
+- `on:panleft`: Detect left pan event
+- `on:panright`: Detect right pan event
+- `on:panup`: Detect up pan event
+- `on:pandown`: Detect down pan event
 
 ## Pinch
 
@@ -62,13 +62,13 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:pinch`: Detect all pinch event
-`on:pinchstart`: Detect start pinch event
-`on:pinchmove`: Detect move pinch event
-`on:pinchend`: Detect end pinch event
-`on:pinchcancel`: Detect cancel pinch event
-`on:pinchin`: Detect in pinch event
-`on:pinchout`: Detect out pinch event
+- `on:pinch`: Detect all pinch event
+- `on:pinchstart`: Detect start pinch event
+- `on:pinchmove`: Detect move pinch event
+- `on:pinchend`: Detect end pinch event
+- `on:pinchcancel`: Detect cancel pinch event
+- `on:pinchin`: Detect in pinch event
+- `on:pinchout`: Detect out pinch event
 
 ## Press
 
@@ -86,8 +86,8 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:press`: Detect press event
-`on:pressup`: Detect up press event
+- `on:press`: Detect press event
+- `on:pressup`: Detect up press event
 
 ## Rotate
 
@@ -106,11 +106,11 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:rotate`: Detect all rotate event
-`on:rotatestart`: Detect start rotate event
-`on:rotatemove`: Detect move rotate event
-`on:rotateend`: Detect end rotate event
-`on:rotatecancel`: Detect cancel rotate event
+- `on:rotate`: Detect all rotate event
+- `on:rotatestart`: Detect start rotate event
+- `on:rotatemove`: Detect move rotate event
+- `on:rotateend`: Detect end rotate event
+- `on:rotatecancel`: Detect cancel rotate event
 
 ## Swipe
 
@@ -130,11 +130,11 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:swipe`: Detect all swipe event
-`on:swipeleft`: Detect left swipe event
-`on:swiperight`: Detect right swipe event
-`on:swipeup`: Detect up swipe event
-`on:swipedown`: Detect down swipe event
+- `on:swipe`: Detect all swipe event
+- `on:swipeleft`: Detect left swipe event
+- `on:swiperight`: Detect right swipe event
+- `on:swipeup`: Detect up swipe event
+- `on:swipedown`: Detect down swipe event
 
 ## Tap
 
@@ -151,7 +151,7 @@ yarn add svelte-hammer
 
 ### Directives
 
-`on:tap`: Detect tap event
+- `on:tap`: Detect tap event
 
 ## Using Custom Options
 
