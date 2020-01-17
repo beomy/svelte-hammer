@@ -79,7 +79,7 @@ See [Hammer.js documentation](http://hammerjs.github.io/getting-started/) for al
   import { press } from 'svelte-hammer'
 </script>
 <div
-  use:pinch
+  use:press
   on:press={() => /* Press */}
   on:pressup={() => /* Press Up */}
 >
