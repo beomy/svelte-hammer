@@ -4,7 +4,7 @@ import pan from './pan';
 import pinch from './pinch';
 import press from './press';
 import rotate from './rotate';
-import tap from './rotate';
+import tap from './tap';
 
 export {
   Hammer,
