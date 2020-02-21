@@ -15,3 +15,12 @@ export {
   rotate,
   tap
 }
+export default {
+  Hammer,
+  swipe,
+  pan,
+  pinch,
+  press,
+  rotate,
+  tap
+}
