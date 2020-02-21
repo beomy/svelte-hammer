@@ -16,9 +16,51 @@ or
 yarn add svelte-hammer
 ```
 
+# rollup config
+
+When this library use in rollup, you need some config:
+
+```js
+// rollup.config.js
+export default {
+  // ...
+  plugins: [
+    // ...
+    commonjs({
+			namedExports: { 'svelte-hammer': ['pan', 'pinch', 'press', 'rotate', 'swipe', 'tap'] }
+		}),
+    // ...
+  ]
+}
+```
+
 # Usage
 
 See [Hammer.js documentation](http://hammerjs.github.io/getting-started/) for all available events.
+
+```html
+<script>
+  import { pan } from 'svelte-hammer'
+</script>
+<div
+  use:pan
+  ...
+>
+</div>
+```
+
+```html
+<script>
+  import svelteHammer from 'svelte-hammer'
+</script>
+<div
+  use:svelteHammer.pan
+  ...
+>
+</div>
+```
+
+You take choose one.
 
 ## Pan
 
