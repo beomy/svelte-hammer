@@ -1,6 +1,6 @@
 {
   "name": "svelte-hammer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "hammerjs for svelte",
   "main": "dist/bundle.js",
   "scripts": {
