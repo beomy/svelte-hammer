@@ -27,8 +27,8 @@ export default {
   plugins: [
     // ...
     commonjs({
-			namedExports: { 'svelte-hammer': ['pan', 'pinch', 'press', 'rotate', 'swipe', 'tap'] }
-		}),
+      namedExports: { 'svelte-hammer': ['pan', 'pinch', 'press', 'rotate', 'swipe', 'tap'] }
+    }),
     // ...
   ]
 }
