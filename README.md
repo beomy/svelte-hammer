@@ -44,6 +44,7 @@ See [Hammer.js documentation](http://hammerjs.github.io/getting-started/) for al
 </script>
 <div
   use:pan
+  on:panstart={({ detail }) => /* Pan Start */}
   ...
 >
 </div>
@@ -55,10 +56,13 @@ See [Hammer.js documentation](http://hammerjs.github.io/getting-started/) for al
 </script>
 <div
   use:svelteHammer.pan
+  on:panstart={({ detail }) => /* Pan Start */}
   ...
 >
 </div>
 ```
+
+`detail` is hammer.js [event object](https://hammerjs.github.io/api/#event-object)
 
 You take choose one.
 

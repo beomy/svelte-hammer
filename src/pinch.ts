@@ -14,6 +14,6 @@ export default function (node: HTMLElement, options: RecognizerOptions): void {
   const hammer = new Hammer(node);
   hammer.get('pinch').set(options);
   for (const event of events) {
-    hammer.on(event, (ev: any) => node.dispatchEvent(new CustomEvent(event, ev)));
+    hammer.on(event, (ev: any) => node.dispatchEvent(new CustomEvent(event, { detail: ev })));
   }
 }
