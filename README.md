@@ -74,9 +74,9 @@ You take choose one.
 </script>
 <div
   use:pan
-  on:panstart={() => /* Pan Start */}
-  on:panmove={() => /* Pan Move */}
-  on:panend={() => /* Pan End */}
+  on:panstart={({ detail }) => /* Pan Start */}
+  on:panmove={({ detail }) => /* Pan Move */}
+  on:panend={({ detail }) => /* Pan End */}
 >
 </div>
 ```
@@ -101,9 +101,9 @@ You take choose one.
 </script>
 <div
   use:pinch
-  on:pinchstart={() => /* Pinch Start */}
-  on:pinchmove={() => /* Pinch Move */}
-  on:pinchend={() => /* Pinch End */}
+  on:pinchstart={({ detail }) => /* Pinch Start */}
+  on:pinchmove={({ detail }) => /* Pinch Move */}
+  on:pinchend={({ detail }) => /* Pinch End */}
 >
 </div>
 ```
@@ -126,8 +126,8 @@ You take choose one.
 </script>
 <div
   use:press
-  on:press={() => /* Press */}
-  on:pressup={() => /* Press Up */}
+  on:press={({ detail }) => /* Press */}
+  on:pressup={({ detail }) => /* Press Up */}
 >
 </div>
 ```
@@ -145,9 +145,9 @@ You take choose one.
 </script>
 <div
   use:rotate
-  on:rotatestart={() => /* Rotate Start */}
-  on:rotatemove={() => /* Rotate Move */}
-  on:rotateend={() => /* Rotate End */}
+  on:rotatestart={({ detail }) => /* Rotate Start */}
+  on:rotatemove={({ detail }) => /* Rotate Move */}
+  on:rotateend={({ detail }) => /* Rotate End */}
 >
 </div>
 ```
@@ -168,10 +168,10 @@ You take choose one.
 </script>
 <div
   use:swipe
-  on:swipeleft={(ev) => /* Swipe Left */}
-  on:swiperight={(ev) => /* Swipe Right */}
-  on:swipeup={(ev) => /* Swipe Up */}
-  on:swipedown={(ev) => /* Swipe Down */}
+  on:swipeleft={({ detail }) => /* Swipe Left */}
+  on:swiperight={({ detail }) => /* Swipe Right */}
+  on:swipeup={({ detail }) => /* Swipe Up */}
+  on:swipedown={({ detail }) => /* Swipe Down */}
 >
 </div>
 ```
@@ -192,7 +192,7 @@ You take choose one.
 </script>
 <div
   use:tap
-  on:tap={() => /* Tap */}
+  on:tap={({ detail }) => /* Tap */}
 >
 </div>
 ```
@@ -211,10 +211,10 @@ Using custom recognizer options such as `direction` and `threshold`:
 </script>
 <div
   use:swipe={{ direction: Hammer.DIRECTION_ALL }}
-  on:swipeleft={(ev) => /* Swipe Left */}
-  on:swiperight={(ev) => /* Swipe Right */}
-  on:swipeup={(ev) => /* Swipe Up */}
-  on:swipedown={(ev) => /* Swipe Down */}
+  on:swipeleft={({ detail }) => /* Swipe Left */}
+  on:swiperight={({ detail }) => /* Swipe Right */}
+  on:swipeup={({ detail }) => /* Swipe Up */}
+  on:swipedown={({ detail }) => /* Swipe Down */}
 >
 </div>
 ```
