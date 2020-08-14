@@ -3,6 +3,7 @@
   "version": "0.1.5",
   "description": "hammerjs for svelte",
   "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "webpack",
     "prepublishOnly": "npm run build"
